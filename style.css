@@ -1,8 +1,26 @@
+body {
+    background: #EDEEEE url(images/geometric-leaves.png) repeat
+}
+
 img {
     height: 500px;
     object-fit: fill;
 }
 
+p {
+    font-size: 20px;
+}
+
+.modal-body img {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.caption-text {
+    background: rgb(218, 223, 234, .7);
+    color: #0275d8;
+}
 
 @media screen and (max-width: 800px) {
     img {
